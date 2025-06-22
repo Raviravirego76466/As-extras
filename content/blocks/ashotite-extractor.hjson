@@ -1,7 +1,6 @@
-type: AttributeCrafter
+type: GenericCrafter
 name: Zion Extractor
 size: 2
-attribute: darksand
 baseEfficiency: 0
 minEfficiency: 1
 liquidCapacity: 60
