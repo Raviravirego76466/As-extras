@@ -1,7 +1,7 @@
 type: AttributeCrafter
 name: Zion Extractor
 size: 2
-attribute: stone
+attribute: darksand
 baseEfficiency: 0
 minEfficiency: 1
 liquidCapacity: 60
