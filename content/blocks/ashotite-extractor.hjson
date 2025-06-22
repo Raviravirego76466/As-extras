@@ -1,0 +1,88 @@
+type: AttributeCrafter
+name: Zion Extractor
+size: 2
+attribute: as
+baseEfficiency: 0
+minEfficiency: 1
+liquidCapacity: 60
+hasLiquids: true
+health: 450
+category: production
+research: as-ashotite-press
+itemCapacity: 10
+researchCostMultiplier: 0.5
+outputLiquid: as-zion/1
+requirements: [
+  as-ashotite/6
+]
+craftTime: 60
+craftEffect: none
+consumes: {
+  items: [
+    as-ashotite/1
+  ]
+  power: 0.5
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: as-zion
+      padding: 0
+      padLeft: -1.0
+      padRight: -1.0
+      padTop: -1.0
+      padBottom: -1.0
+      alpha: 1.0
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 5.2
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 5.2
+      x: 4
+      y: 4
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 5.2
+      x: -4
+      y: 4
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 5.2
+      x: -4
+      y: -4
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 5.2
+      x: 4
+      y: -4
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
+squareSprite: false
