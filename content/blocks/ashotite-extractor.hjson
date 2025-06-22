@@ -1,7 +1,7 @@
 type: AttributeCrafter
 name: Zion Extractor
 size: 2
-attribute: as
+attribute: as-quartz-sand-floor
 baseEfficiency: 0
 minEfficiency: 1
 liquidCapacity: 60
